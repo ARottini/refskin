@@ -1,0 +1,242 @@
+/* ----------------------------------------------------------------------------
+Mumble Skin
+-------------------------------------------------------------------------------
+Name:		REF2
+Description: The official skin of refugeegaming.com
+Version:	2.0.1
+Author:	Argyle
+Website:	http://refugeegaming.com
+Date:		10/30/13
+
+Copyright (c) 2013 Refugee Gaming
+----------------------------------------------------------------------*/
+
+/* Main */
+
+QMainWindow {
+background-color:#1E1E1E;
+font-family: 'Segoe UI';
+
+}
+* {
+
+
+ selection-color: #fff;
+}
+
+
+
+/* Message input */
+
+
+QTextEdit {	
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 5px; 
+background-color: #3A3A3A;
+color: #FFF;
+font-family: 'Segoe UI';
+border:1px solid #444444;
+}
+
+
+/* Message window */
+
+QTextBrowser {
+
+color: #FFF;
+margin-left: 5px;
+margin-right: 5px;
+margin-top: 5px;
+padding: 3px;
+font-family: 'Segoe UI';
+font-size:12px;
+border:1px solid #444444;
+}
+.log-time {
+color: #FFF;
+}
+.log-server {
+color: #4accff;
+font-weight: bold;
+}
+.log-channel {
+color: #ffb534;
+font-weight: bold;
+}
+.log-privilege {
+color: #769ADB;
+font-weight: bold;
+}
+a {
+color: #4accff;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+/* Scrollbar */
+
+QScrollBar:vertical {
+border:none;
+background: #3A3A3A;
+background-color: #3A3A3A;
+width: 5px;
+}
+QScrollBar::handle:vertical {
+background-color: #1E1E1E;
+}
+
+QScrollBar::add-page:vertical {
+background-color:3A3A3A;
+}
+
+QScrollBar::sub-page:vertical {
+background-color:3A3A3A;
+}
+
+QScrollBar::add-line:vertical {
+background-color: transparent;
+}
+QScrollBar::sub-line:vertical {
+background-color: transparent;
+}
+
+
+QScrollBar:horizontal {
+border:none;
+background: #3A3A3A;
+background-color: #3A3A3A;
+height: 5px;
+}
+QScrollBar::handle:horizontal {
+background-color: #1E1E1E;
+}
+
+QScrollBar::add-page:horizontal {
+background-color:3A3A3A;
+}
+
+QScrollBar::sub-page:horizontal {
+background-color:3A3A3A;
+}
+
+QScrollBar::add-line:horizontal {
+background-color: transparent;
+}
+QScrollBar::sub-line:horizontal {
+background-color: transparent;
+}
+
+
+QAbstractScrollArea::corner {
+background-color: transparent;
+}
+
+QTreeView {
+ background:3A3A3A;
+ color: #ddd;
+ border: 0;
+ margin-top: 1px;
+ alternate-background-color:transparent;
+ background-image: url(skin:logo.png);
+ background-position:top right;
+background-repeat:no-repeat;
+}
+
+
+
+/* Channels & Users */
+
+QTreeView#qtvUsers {
+font-family: 'Segoe UI';
+font-size:12px;
+background-color: #3A3A3A;
+show-decoration-selected: 1;
+color: #FFF;
+font-weight: bold;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-top: 5px;
+border:1px solid #444444;
+padding: 3px;
+}
+
+/* Branches */
+
+QTreeView::branch:has-children:!has-siblings:closed,
+QTreeView::branch:closed:has-children:has-siblings {
+image: url(skin:closed.png);
+background-color: transparent;
+}
+QTreeView::branch:open:has-children:!has-siblings,
+QTreeView::branch:open:has-children:has-siblings {
+image: url(skin:open.png);
+background-color: transparent;
+}
+
+
+/* Toolbar */
+
+QToolButton {
+background-color: transparent;
+}
+
+QToolButton:on {
+background-color: transparent;
+}
+
+QToolButton:off {
+background-color: transparent;
+}
+
+QToolBar {
+border-radius: 0px;
+background: transparent;
+}
+
+QToolBar::handle {
+background-color: transparent;
+}
+QToolBar::separator {
+background-color: transparent;
+}
+
+QDialog {
+ background:#3A3A3A;
+ border: 1px solid #111;
+}
+
+/* Menubar */
+
+QMenuBar {
+background: #1E1E1E;
+font-family: 'Segoe UI';
+
+ 
+QMenuBar::item {
+background: #1E1E1E;
+color: #FFF;
+margin-top: 5px;
+margin-left: 12px;
+}
+
+QMenu {
+background: #3A3A3A;
+}
+
+QMenu::item {
+background: transparent;
+color: #1E1E1E;
+}
+QMenu::item:selected {
+background: #1E1E1E;
+}
+QMenu::item:disabled {
+color: #3A3A3A;
+}
+QMenu::separator {
+background: #1E1E1E;
+height: 1px;
+}
+
