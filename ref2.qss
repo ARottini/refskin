@@ -57,7 +57,7 @@ border:1px solid #444444;
 color: #FFF;
 }
 .log-server {
-color: #4accff;
+color: #00D936;
 font-weight: bold;
 }
 .log-channel {
