@@ -15,7 +15,7 @@ font-family: 'Segoe UI';
 
 /*Highlight everything to green on text select*/
 * {
- selection-color: #fff; 
+ selection-color: #CCCCCC; 
 }
 
 /*Settings Group Boxes (box has border going through title)*/
