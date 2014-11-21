@@ -1,14 +1,8 @@
 /* ----------------------------------------------------------------------------
-Mumble Skin
+Refugee Gaming Mumble Skin
 -------------------------------------------------------------------------------
-Name:		REF2
-Description: The official skin of refugeegaming.com
-Version:	2.0.1
-Author:	Argyle
-Website:	http://refugeegaming.com
-Date:		10/30/13
-
-Copyright (c) 2013 Refugee Gaming
+https://github.com/argyleref/refskin
+https://github.com/argyleref/refskin/graphs/contributors
 ----------------------------------------------------------------------*/
 
 /* Main */
@@ -51,7 +45,7 @@ QPushButton {
 }
 
 QPushButton:focus {
-  background-color: #3e4f5e;
+  background-color: #333333;
 }
 
 QPushButton:hover {
@@ -60,7 +54,7 @@ QPushButton:hover {
 }
 
 QPushButton:hover:focus {
-  background-color: #485d6f;
+  background-color: #222222;
   border-color: #999;
 }
 
