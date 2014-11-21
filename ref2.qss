@@ -13,7 +13,7 @@ font-family: 'Segoe UI';
 
 }
 
-/*Highlight everything to green on text select*/
+
 * {
  selection-color: #CCCCCC; 
 }
