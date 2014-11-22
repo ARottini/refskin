@@ -1,6 +1,7 @@
 RefSkin
 =======
-
+Sometimes I mumble so hard I rip the skin.
+If you end up ripping the default skin use this.
 A simple and dark mumble skin created for members of http://refugeegaming.com. 
 
 Installation instructions
